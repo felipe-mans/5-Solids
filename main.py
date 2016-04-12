@@ -9,8 +9,10 @@ color = [ 0, 255, 0 ]
 edges = []
 transform = new_matrix()
 
+f = open('my_script')
+
 if len(sys.argv) == 2:
     f = open(sys.argv[1])
-
+    
 parse_file( f, edges, transform, screen, color )
 f.close()

@@ -1,0 +1,26 @@
+torus
+125 112 15 80
+torus
+375 112 15 80
+torus
+125 0 15 80
+torus
+125 224 15 80
+torus
+375 0 15 80
+torus
+375 224 15 80
+sphere
+125 350 50
+sphere
+375 -125 50
+ident
+zrotate
+45
+yrotate
+45
+translate
+200 0 0
+apply
+display
+quit
